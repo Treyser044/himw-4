@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nosifer&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-black">
+
+    <div class="h-screen flex justify-center items-center flex-col gap-5">
+        <div class="flex gap-2 items-center pb-[55px]">
+
+            <input type="number" class="input validator w-[331px] h-[51px] font-medium text-[20px] border-[3px] border-[#2A2A2A]  font-inter text-[#2A2A2A] bg-[#D9D9D9] rounded-[30px] pl-[28px] mr-[35px]" id="userInput"  placeholder="Enter your number"
+                title="Must be between be 1 to 10" />
+            <button class="w-[112px] h-[51px] rounded-[30px] bg-[#2A2A2A] font-bold text-[20px] text-white" id="sentBtn">sent</button>
+        </div>
+
+
+
+        <div class="flex  items-center w-[478px] h-[134px] bg-[#49444480] rounded-[32px]  justify-between">
+            <span class="pl-[22px]" id="decrementBtn"><img src="Decrease.png" alt=""></span>
+            <span class="text-6xl font-bold text-primary-content" id="count">0</span>
+            <span class="pr-[24px]" id="incrementBtn"><img src="Controls.png" alt=""></span>
+        </div>
+        <div>
+            <button class="  text-white font-medium text-[48px] pr-[17px] " id="sentColor">Select color</button>
+            <input type="color" id="colorBtn" class="w-[84px] h-[42px] border-[#2A2A2A9C]  border-[3px] bg-[#D9D9D9]">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
